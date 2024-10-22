@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprobar DNI</title>
+    <link rel="stylesheet" href="dni.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comprobar DNI</h1>
+        <label for="numeroDNI">Número de DNI (sin letra):</label>
+        <input type="number" id="numeroDNI" placeholder="Ingrese el número de DNI">
+        <label for="letraDNI">Letra del DNI:</label>
+        <input type="text" id="letraDNI" placeholder="Ingrese la letra del DNI" maxlength="1">
+        <button onclick="comprobarDNI()">Comprobar</button>
+        <div id="resultado"></div>
+    </div>
+    <script  src="5.js"></script>
+
+</body>
+</html>
